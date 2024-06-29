@@ -1,0 +1,145 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.con {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 2px solid #94a3b8;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .con {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+.horizantal {
+  display: flex;
+  flex-direction: row;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+.username-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  flex-shrink: 0;
+}
+.name-subcontainer {
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .username-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .name-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.letter {
+  font-size: 10px;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .letter {
+    font-size: 20px;
+  }
+}
+.username {
+  font-size: 13px;
+  color: #1e293b;
+  margin: 0px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.time {
+  color: #94a3b8;
+  font-size: 8px;
+  margin: 0px;
+  margin-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .username {
+    font-size: 25px;
+  }
+  .time {
+    font-size: 18px;
+  }
+}
+.description {
+  font-size: 20px;
+  color: #94a3b8;
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+}
+.left-space {
+  margin-left: 5px;
+}
+@media screen and (min-width: 768px) {
+  .left-space {
+    margin-left: 20px;
+  }
+}
+.user-button {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin: 0px;
+  margin-left: 5px;
+}
+.white {
+  color: #94a3b8;
+}
+.blue {
+  color: #0ea5e9;
+}
+.like-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .user-button {
+    font-size: 20px;
+  }
+  img {
+    width: 40px;
+  }
+}
